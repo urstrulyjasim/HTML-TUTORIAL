@@ -149,7 +149,7 @@
   <form>
     <div>
       <label for="fname">First Name: </label>
-      <input type="text" name="fname" id="fname">
+      <input type="text" name="fname" id="fname" required>
     </div>
     <br>
 
@@ -171,7 +171,7 @@
 
     <!--!checkbox -->
     <div>
-      <lebel for="religion">Religion</lebel>
+      <label for="religion">Religion</lebel>
       <input type="checkbox" name="religion" id="religion" value="Islam">Islam
       <input type="checkbox" name="religion" id="religion" value="Hindu">Hindu
       <input type="checkbox" name="religion" id="religion" value="Buddist">Buddist
@@ -181,7 +181,7 @@
 
     <!--!Radio Button -->
     <div>
-      <lebel for="gender">Gender: </lebel>
+      <label for="gender">Gender: </lebel>
       <input type="radio" name="gender" id="gender" value="Male">Male
       <input type="radio" name="gender" id="gender" value="Feale">Female
     </div>
@@ -189,19 +189,37 @@
 
     <!-- !Select Box -->
     <div>
-      <level for="department">Department: </level>
+      <label for="department">Department: </level>
       <select name="department">
         <option value="cse">CSE</option>
         <option value="eee" selected>EEE</option>
         <option value="ce">CE</option>
         <option value="ete">ETE</option>
       </select>
-      
+      <br>
+    </div>
+    <div>
+
+      <label for="message">Message: </label>
+      <br>
+      <textarea cols="10" rows="10" required></textarea>
+    </div>
+    <div>
+      <input type="submit" value="Register">
+      <input type="reset" vlaue="Cleal">
     </div>
 
-
   </form>
+  <br><br><br>
+  <!-- !button -->
+   <a href="https://en.wikipedia.org/wiki/Bangladesh">
 
+      <button style="color:lime;background-color: grey;font-size: 30px; border-radius: 20px;">Click here</button>
+
+
+   </a>
+
+  
 </body>
 
 </html>
